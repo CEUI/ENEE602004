@@ -36,7 +36,7 @@ Dr. Alfan Presekal · Electrical Engineering · Universitas Indonesia
 
 ---
 
-# Slide 1 — Mengapa Array Tidak Cukup?
+# Mengapa Array Tidak Cukup?
 
 Array memiliki keterbatasan fundamental untuk operasi insert dan delete.
 
@@ -63,7 +63,7 @@ n++;
 
 ---
 
-# Slide 2 — Anatomi Node
+# Anatomi Node
 
 ![Anatomi sebuah Node](img/img_01_node_anatomy.png)
 
@@ -76,7 +76,7 @@ n++;
 
 ---
 
-# Slide 3 — struct Node dan Singly Linked List
+# struct Node dan Singly Linked List
 
 ```cpp
 struct Node {
@@ -93,7 +93,7 @@ struct Node {
 
 ---
 
-# Slide 4 — Operasi: append
+# Operasi: append
 
 ![Operasi append](img/img_03_append.png)
 
@@ -113,7 +113,7 @@ void append(Node*& head, int val) {
 
 ---
 
-# Slide 5 — Operasi: prepend
+# Operasi: prepend
 
 ![Operasi prepend](img/img_04_prepend.png)
 
@@ -132,7 +132,7 @@ void prepend(Node*& head, int val) {
 
 ---
 
-# Slide 6 — Operasi: search
+# Operasi: search
 
 ```cpp
 // Kembalikan pointer ke node, atau nullptr jika tidak ditemukan — O(n)
@@ -168,7 +168,7 @@ insertAfter(p, 25);   // → 10 -> 20 -> 25 -> 30 -> 40 -> 50 -> NULL
 
 ---
 
-# Slide 7 — Operasi: insertAfter
+# Operasi: insertAfter
 
 ![Operasi insertAfter](img/img_05_insert_after.png)
 
@@ -187,7 +187,7 @@ void insertAfter(Node* prev, int val) {
 
 ---
 
-# Slide 8 — Operasi: deleteNode
+# Operasi: deleteNode
 
 ![Tiga kasus deleteNode](img/img_06_delete.png)
 
@@ -207,7 +207,7 @@ bool deleteNode(Node*& head, int val) {
 
 ---
 
-# Slide 9 — printList dan freeList
+# printList dan freeList
 
 ```cpp
 void printList(Node* head) {
@@ -234,7 +234,7 @@ void freeList(Node*& head) {
 
 ---
 
-# Slide 10 — Manajemen Memori: Stack vs Heap
+# Manajemen Memori: Stack vs Heap
 
 ![Stack vs Heap](img/img_07_memory.png)
 
@@ -247,7 +247,7 @@ void freeList(Node*& head) {
 
 ---
 
-# Slide 11 — Aplikasi EE: Log Sensor ADC
+# Aplikasi EE: Log Sensor ADC
 
 ![Sensor Log ADC](img/img_08_sensor_log.png)
 
@@ -266,7 +266,7 @@ for (int i = 0; i < 5; i++) {
 
 ---
 
-# Slide 12 — Cara Kompilasi
+# Cara Kompilasi
 
 Ganti `<path>` dengan lokasi folder di komputer masing-masing.
 
@@ -300,7 +300,7 @@ week09_linked_list/
 
 ---
 
-# Slide 13 — Array vs Linked List
+# Array vs Linked List
 
 | Operasi | Array | Linked List |
 |---------|:-----:|:-----------:|
@@ -322,7 +322,7 @@ week09_linked_list/
 
 ---
 
-# Slide 14 — Ringkasan Kompleksitas
+# Ringkasan Kompleksitas
 
 | Operasi | Kompleksitas | Keterangan |
 |---------|:---:|------------|
@@ -341,7 +341,7 @@ week09_linked_list/
 
 ---
 
-# Slide 15 — Latihan Mandiri
+# Latihan Mandiri
 
 **Latihan 1** — Buat `int countNodes(Node* head)` yang mengembalikan jumlah node.
 
